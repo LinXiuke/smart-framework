@@ -1,7 +1,7 @@
-package pers.lxk.smartframework.helper;
+package pers.lxk.smart4j.framework.helper;
 
-import pers.lxk.smartframework.ConfigConstant;
-import pers.lxk.smartframework.util.PropsUtil;
+import pers.lxk.smart4j.framework.ConfigConstant;
+import pers.lxk.smart4j.framework.util.PropsUtil;
 
 import java.util.Properties;
 

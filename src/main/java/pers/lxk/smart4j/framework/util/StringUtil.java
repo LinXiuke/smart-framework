@@ -1,4 +1,4 @@
-package pers.lxk.smartframework.util;
+package pers.lxk.smart4j.framework.util;
 
 import org.apache.commons.lang3.StringUtils;
 

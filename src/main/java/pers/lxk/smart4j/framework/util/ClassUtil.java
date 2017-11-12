@@ -1,4 +1,4 @@
-package pers.lxk.smartframework.util;
+package pers.lxk.smart4j.framework.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -61,10 +61,11 @@ public final class ClassUtil {
             while (urls.hasMoreElements()) {
                 URL url = urls.nextElement();
                 if (url != null) {
+                    //返回URL的协议标识符组件
                     String protocol = url.getProtocol();
                     //判断是否为jar包
                     if (protocol.equals("file")) {
-                        String packagePath = url.getPath().replaceAll("%20", "");
+                        String packagePath = url.getPath().replaceAll("%20", " ");
                         //加载
                         addClass(classSet, packagePath, packageName);
                     } else if (protocol.equals("jar")) {
@@ -73,11 +74,13 @@ public final class ClassUtil {
                         if (jarURLConnection != null) {
                             /** abstract方法 */
                             JarFile jarFile = JarURLConnection.getJarFile();
+                            //加载jar包内所有类
                             if (jarFile != null) {
                                 Enumeration<JarEntry> jarEntries = jarFile.entries();
                                 while (jarEntries.hasMoreElements()) {
                                     JarEntry jarEntry = jarEntries.nextElement();
                                     String jarEnterName = jarEntry.getName();
+                                    //如果是.class（类文件）则加载
                                     if (jarEnterName.endsWith(".class")) {
                                         String className = jarEnterName.substring(0, jarEnterName.lastIndexOf(".")).replaceAll("/", ".");
                                         doAddClass(classSet, className);
@@ -89,8 +92,11 @@ public final class ClassUtil {
                 }
             }
         } catch (Exception e) {
-
+            LOGGER.error("get class set failure", e);
+            throw new RuntimeException(e);
         }
+
+        return classSet;
     }
 
     /**

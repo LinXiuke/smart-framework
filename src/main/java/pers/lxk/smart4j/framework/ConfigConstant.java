@@ -1,4 +1,4 @@
-package pers.lxk.smartframework;
+package pers.lxk.smart4j.framework;
 
 /**
  * @Description: 提供相关配置项常量
