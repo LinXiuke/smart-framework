@@ -32,7 +32,7 @@ public final class ClassUtil {
     }
 
     /**
-     * 加载类
+     * 加载类,为提高性能可将isInitialized设置为false
      * @param className
      * @param isInitialized
      * @return
@@ -46,6 +46,10 @@ public final class ClassUtil {
             throw new RuntimeException(e);
         }
         return cls;
+    }
+
+    public static Class<?> loadClass(String name) {
+        return loadClass(name, false);
     }
 
     /**
