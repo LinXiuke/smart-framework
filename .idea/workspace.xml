@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cdb9481-897b-4e88-9b2c-3b62df91f34c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/lxk/smart4j/framework/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/lxk/smart4j/framework/util/ClassUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="9cdb9481-897b-4e88-9b2c-3b62df91f34c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,8 +84,8 @@
       <file leaf-file-name="ClassUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pers/lxk/smart4j/framework/util/ClassUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282">
-              <caret line="84" column="54" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
+            <state relative-caret-position="325">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
         </entry>
@@ -373,16 +370,15 @@
       <workItem from="1517634110806" duration="627000" />
       <workItem from="1519569925925" duration="65000" />
       <workItem from="1525965329239" duration="310000" />
-      <workItem from="1532245998314" duration="464000" />
+      <workItem from="1532245998314" duration="892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41298000" />
+    <option name="totallyTimeSpent" value="41726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -395,10 +391,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32889965" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329602" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24711816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24711816" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Database" order="5" weight="0.3295129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -769,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/lxk/smart4j/framework/util/ClassUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="84" column="54" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
+        <state relative-caret-position="325">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
