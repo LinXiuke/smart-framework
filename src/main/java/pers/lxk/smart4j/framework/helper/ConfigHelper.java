@@ -7,8 +7,6 @@ import java.util.Properties;
 
 /**
  * @Description: 属性文件助手类
- * @Author: linxiuke
- * @Date: Create in 2017/11/7
  */
 
 public final class ConfigHelper {
@@ -37,7 +35,7 @@ public final class ConfigHelper {
      * @return
      */
     public static String getJdbcUsername() {
-        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_USERNAMW);
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_USERNAME);
     }
 
     /**

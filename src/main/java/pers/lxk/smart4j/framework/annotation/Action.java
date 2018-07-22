@@ -7,8 +7,6 @@ import java.lang.annotation.Target;
 
 /**
  * @Description: Action方法注解
- * @Author: linxiuke
- * @Date: Create in 2017/11/12
  */
 
 @Target(ElementType.METHOD)

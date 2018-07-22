@@ -8,8 +8,6 @@ import pers.lxk.smart4j.framework.util.ClassUtil;
 
 /**
  * @Description: 加载相应的helper类
- * @Author: linxiuke
- * @Date: Create in 2017/12/5
  */
 public final class HelperLoader {
 

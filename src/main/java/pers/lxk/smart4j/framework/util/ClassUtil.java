@@ -15,8 +15,6 @@ import java.util.jar.JarFile;
 
 /**
  * @Description: 类操作工具类
- * @Author: linxiuke
- * @Date: Create in 2017/11/9
  */
 public final class ClassUtil {
 
@@ -76,7 +74,6 @@ public final class ClassUtil {
                         //加载jar包内的类
                         JarURLConnection jarURLConnection = (JarURLConnection) url.openConnection();
                         if (jarURLConnection != null) {
-                            /** abstract方法 */
                             JarFile jarFile = jarURLConnection.getJarFile();
                             //加载jar包内所有类
                             if (jarFile != null) {

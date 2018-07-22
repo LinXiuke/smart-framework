@@ -9,8 +9,6 @@ import java.util.Map;
 
 /**
  * @Description: 集合工具类
- * @Author: linxiuke
- * @Date: Create in 2017/11/16
  */
 public final class CollectionUtil {
 

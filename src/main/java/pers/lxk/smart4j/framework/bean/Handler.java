@@ -4,8 +4,6 @@ import java.lang.reflect.Method;
 
 /**
  * @Description: 封装action信息
- * @Author: linxiuke
- * @Date: Create in 2017/11/15
  */
 public class Handler {
 

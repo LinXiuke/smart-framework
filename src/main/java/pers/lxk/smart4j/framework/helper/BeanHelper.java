@@ -8,8 +8,6 @@ import java.util.Set;
 
 /**
  * @Description: Bean助手类
- * @Author: linxiuke
- * @Date: Create in 2017/11/12
  */
 public class BeanHelper {
 

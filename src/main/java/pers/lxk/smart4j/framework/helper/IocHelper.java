@@ -11,8 +11,6 @@ import java.util.Map;
 
 /**
  * @Description: 依赖注入助手类
- * @Author: linxiuke
- * @Date: Create in 2017/11/12
  */
 public final class IocHelper {
 

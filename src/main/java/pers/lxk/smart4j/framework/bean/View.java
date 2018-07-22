@@ -5,8 +5,6 @@ import java.util.Map;
 
 /**
  * @Description: 返回视图对象
- * @Author: linxiuke
- * @Date: Create in 2017/12/5
  */
 public class View {
 

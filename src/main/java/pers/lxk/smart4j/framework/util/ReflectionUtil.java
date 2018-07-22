@@ -10,8 +10,6 @@ import java.lang.reflect.Method;
  * @Description: 反射助手类
  *               使用ClassHelper类获取所加载的类，但是无法通过类实例化对象
  *               该类用来封装反射相关的API
- * @Author: linxiuke
- * @Date: Create in 2017/11/12
  */
 public final class ReflectionUtil {
 

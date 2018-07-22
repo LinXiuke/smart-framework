@@ -2,8 +2,6 @@ package pers.lxk.smart4j.framework;
 
 /**
  * @Description: 提供相关配置项常量
- * @Author: linxiuke
- * @Date: Create in 2017/11/7
  */
 public interface ConfigConstant {
 
@@ -11,7 +9,7 @@ public interface ConfigConstant {
 
     String JDBC_DRIVER = "smart.framework.jdbc.driver";
     String JDBC_URL = "smart.framework.jdbc.url";
-    String JDBC_USERNAMW = "smart.framework.jdbc.username";
+    String JDBC_USERNAME = "smart.framework.jdbc.username";
     String JDBC_PASSWORD = "smart.framework.jdbc.password";
 
     String APP_BASE_PACKAGE = "smart.framework.app.base_package";

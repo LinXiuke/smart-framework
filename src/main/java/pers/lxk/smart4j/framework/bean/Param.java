@@ -6,8 +6,6 @@ import java.util.Map;
 
 /**
  * @Description: 请求参数对象
- * @Author: linxiuke
- * @Date: Create in 2017/12/5
  */
 public class Param {
 

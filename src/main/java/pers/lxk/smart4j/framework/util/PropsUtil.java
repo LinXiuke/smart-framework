@@ -10,8 +10,6 @@ import java.util.Properties;
 
 /**
  * @Description: 属性文件工具类
- * @Author: linxiuke
- * @Date: Create in 2017/11/7
  */
 public class PropsUtil {
 
