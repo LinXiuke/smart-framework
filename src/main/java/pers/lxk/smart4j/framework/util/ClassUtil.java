@@ -77,7 +77,7 @@ public final class ClassUtil {
                         JarURLConnection jarURLConnection = (JarURLConnection) url.openConnection();
                         if (jarURLConnection != null) {
                             /** abstract方法 */
-                            JarFile jarFile = JarURLConnection.getJarFile();
+                            JarFile jarFile = jarURLConnection.getJarFile();
                             //加载jar包内所有类
                             if (jarFile != null) {
                                 Enumeration<JarEntry> jarEntries = jarFile.entries();
