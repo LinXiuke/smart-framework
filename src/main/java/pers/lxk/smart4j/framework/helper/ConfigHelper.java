@@ -6,7 +6,7 @@ import pers.lxk.smart4j.framework.util.PropsUtil;
 import java.util.Properties;
 
 /**
- * @Description: 属性文件助手类
+ * @Description: 属性文件助手类 P76
  */
 
 public final class ConfigHelper {

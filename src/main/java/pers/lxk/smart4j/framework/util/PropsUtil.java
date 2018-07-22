@@ -9,7 +9,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * @Description: 属性文件工具类
+ * @Description: 属性文件工具类 P34
  */
 public class PropsUtil {
 

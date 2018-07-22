@@ -14,7 +14,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 /**
- * @Description: 类操作工具类
+ * @Description: 类操作工具类 P79
  */
 public final class ClassUtil {
 

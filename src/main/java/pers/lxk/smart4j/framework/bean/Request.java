@@ -4,7 +4,7 @@ import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 /**
- * @Description: 封装请求信息
+ * @Description: 封装请求信息 P93
  */
 public class Request {
 

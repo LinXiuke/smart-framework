@@ -3,7 +3,7 @@ package pers.lxk.smart4j.framework.util;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @Description:字符串工具类
+ * @Description: 字符串工具类 P39
  */
 public class StringUtil {
 

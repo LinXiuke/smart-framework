@@ -1,7 +1,7 @@
 package pers.lxk.smart4j.framework;
 
 /**
- * @Description: 提供相关配置项常量
+ * @Description: 提供相关配置项常量 P75
  */
 public interface ConfigConstant {
 

@@ -5,7 +5,7 @@ import pers.lxk.smart4j.framework.util.CastUtil;
 import java.util.Map;
 
 /**
- * @Description: 请求参数对象
+ * @Description: 请求参数对象 P99
  */
 public class Param {
 

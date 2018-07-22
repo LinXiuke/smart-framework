@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.Map;
 
 /**
- * @Description: 集合工具类
+ * @Description: 集合工具类 P40
  */
 public final class CollectionUtil {
 

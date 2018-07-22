@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @Description: 服务类注解
+ * @Description: 服务类注解 P84
  */
 
 @Target(ElementType.TYPE)

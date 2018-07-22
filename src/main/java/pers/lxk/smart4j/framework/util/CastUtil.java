@@ -1,7 +1,7 @@
 package pers.lxk.smart4j.framework.util;
 
 /**
- * @Description: 转型操作工具类
+ * @Description: 转型操作工具类 P36
  */
 
 public class CastUtil {

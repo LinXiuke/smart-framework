@@ -3,7 +3,7 @@ package pers.lxk.smart4j.framework.bean;
 import java.lang.reflect.Method;
 
 /**
- * @Description: 封装action信息
+ * @Description: 封装action信息 P94
  */
 public class Handler {
 

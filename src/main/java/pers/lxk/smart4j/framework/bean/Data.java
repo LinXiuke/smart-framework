@@ -1,7 +1,7 @@
 package pers.lxk.smart4j.framework.bean;
 
 /**
- * @Description: 返回获取数据
+ * @Description: 返回获取数据 P101
  */
 public class Data {
 
