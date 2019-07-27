@@ -66,7 +66,7 @@ public final class ConfigHelper {
      * 获取应用静态资源路径
      * @return
      */
-    public static String getAPPAsserPath() {
+    public static String getAPPAssetPath() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_ASSET_PATH, "/asset/");
     }
 
