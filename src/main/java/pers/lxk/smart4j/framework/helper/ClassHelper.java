@@ -91,14 +91,14 @@ public final class ClassHelper {
      * @param annotationClass
      * @return
      */
-    public static Set<Class<?>> getClassSetBYAnnotation(Class<? extends Annotation> annotationClass) {
-        Set<Class<?>> classSet = new HashSet<>();
+    public static Set<Class<?>> getClassSetByAnnotation(Class<? extends Annotation> annotationClass) {
+        Set<Class<?>> annotationClassSet = new HashSet<>();
         for (Class<?> cls : CLASS_SET) {
             if (cls.isAnnotationPresent(annotationClass) && !annotationClass.equals(cls)) {
-                classSet.add(cls);
+                annotationClassSet.add(cls);
             }
         }
 
-        return classSet;
+        return annotationClassSet;
     }
 }
