@@ -43,7 +43,7 @@ public final class DatabaseHelper {
 
 
     /**
-     * 获取是巨亏连接
+     * 获取数据库连接
      * @return
      */
     public static Connection getConnection() {
